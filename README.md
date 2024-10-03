@@ -8,6 +8,10 @@ The aim is to analyse and predict average temperature from the agri-food sector,
 
 ## 2. Dataset 
 
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 ## 3. Packages 
 
 ## 4. Environment
