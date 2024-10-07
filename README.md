@@ -28,6 +28,12 @@ It's highly recommended to use a virtual environment or Jupytor for your project
 # create the conda environment
 conda create
 
+# Exporting your conda environment
+conda activate <env>
+conda install pip
+pip freeze > requirements.txt
+pip list --format=freeze > requirements.txt
+
 ## This is how you activate the virtual environment in a terminal and install the project dependencies
 
 # activate the virtual environment
