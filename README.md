@@ -16,10 +16,30 @@ By the end of this project, you will have a thorough understanding of the impact
 
 To carry out all the objectives for this repo, the following necessary dependencies were loaded:
 
-Pandas 2.2.2 and Numpy 1.26
-Matplotlib 3.8.4
-seaborn 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import itertools
+import random
+import seaborn as sns
+import matplotlib.cm as cm
+import json
+import pingouin as pg
+import missingno as msno
+import statsmodels.api as sm
+import pmdarima as pm
 
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.graphics.tsaplots import plot_predict
+from statsmodels.tsa.statespace.tools import diff
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.stattools import adfuller
+from sklearn.metrics import mean_squared_error
+from math import sqrt
+
+import warnings
+warnings.filterwarnings("ignore")
+plt.rcParams["figure.figsize"] = (15,10)
 ## 4. Environment
 It's highly recommended to use a virtual environment or Jupytor for your projects, there are many ways to do this; we've outlined one such method below. Make sure to regularly update this section. This way, anyone who clones your repository will know exactly what steps to follow to prepare the necessary environment. The instructions provided here should enable a person to clone your repo and quickly get started.
 
