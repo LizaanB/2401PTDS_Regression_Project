@@ -99,4 +99,10 @@ pip install -r requirements.txt
 
 ## 5. Contributors 
 
-Name	Email
+#### Data Engineers: 
+######        (1) Lizaan Botha
+######        (2) Susheila Naick
+######        (3) Amukelani Khosa
+######        (4) Lutho Ntsepe
+######        (5) Richard Marais
+######        (6) Thabiso Nyokolodi
