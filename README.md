@@ -1,6 +1,6 @@
 # 2401PTDS_Regression_Project 
 
-## Tabel of contents 
+## Table of contents 
 
 ## 1.Project overview
 
